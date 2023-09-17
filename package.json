@@ -1,0 +1,88 @@
+{
+  "name": "auction-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "alchemy-sdk": "^2.8.3",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hooks-global-state": "^1.0.2",
+    "react-icons": "^4.3.1",
+    "react-identicons": "^1.2.5",
+    "react-moment": "^1.1.2",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.0",
+    "react-toastify": "^9.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@tailwindcss/forms": "0.4.0",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "assert": "^2.0.0",
+    "autoprefixer": "10.4.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "buffer": "^6.0.3",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.4.0",
+    "hardhat": "^2.14.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "https-browserify": "^1.0.0",
+    "mnemonics": "^1.1.3",
+    "os-browserify": "^0.3.0",
+    "postcss": "8.4.5",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.1.11",
+    "solidity-coverage": "^0.8.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "3.0.18",
+    "typechain": "^8.1.1",
+    "url": "^0.11.0"
+  }
+}
